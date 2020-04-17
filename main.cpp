@@ -24,13 +24,13 @@ class Polinomio{
 		Polinomio ();
 		void cargar();
 		void mostrar();
-		void operator=(Polinomio);/////
+		void operator=(Polinomio);///// sobrecarga de operador
 		float evaluar(float);
 		void derivada();
 		void integrar();
 		float integrar(float,float);
-		Polinomio operator +(Polinomio);////
-		Polinomio operator -(Polinomio);/////
+		Polinomio operator +(Polinomio);//// sobrecarga de operador
+		Polinomio operator -(Polinomio);///// sobrecarga de operador
 		
 };
 
